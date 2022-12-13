@@ -1,0 +1,19 @@
+body {
+    background-color: yellowgreen;
+    margin: 0px;
+  }
+  /* border-toit */
+  #boite_toit {
+    border: solid rgb(52, 52, 71) 2px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245, 137, 87);
+    text-align: center;
+    font-size: 600%;
+  }
+  #boite_toit img{
+      width: 5%;
+      margin-top: 1%;
+      font-weight: 5%;
+      margin-left:-5% ;
+  }
