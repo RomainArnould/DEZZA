@@ -1,19 +1,49 @@
 body {
-    background-color: yellowgreen;
+    background-color:rgb(52, 52, 71);
     margin: 0px;
   }
   /* border-toit */
   #boite_toit {
     border: solid rgb(52, 52, 71) 2px;
-    height: 100%;
+    height: 50%;
     width: 100%;
     background-color: rgb(245, 137, 87);
     text-align: center;
-    font-size: 600%;
+    font-size: 300%;
+    margin-top: 0%;
+
   }
   #boite_toit img{
-      width: 5%;
-      margin-top: 1%;
+      width: 3%;
       font-weight: 5%;
       margin-left:-5% ;
   }
+/* tableau */
+/* espacement */
+
+table {
+  table-layout: fixed;
+  width: 60%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
