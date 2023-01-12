@@ -6,9 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Static Template</title>
+  <script type="text/javascript">
+
+    function togglemenu(){
+      document.getElementById('sidebar').classList.toggle('active');
+    }
+
+  </script>
+
   </head>
   <body>
     <div id="boite_toit">
+      <div id="sidebar" onclick="togglemenu()">
+        <div class="toggle-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul>
+          <li>Home</li>
+          <li>Carte</li>
+          <li>Support</li>
+        </ul>
+      </div>
       <img src="pizza2.png" alt="logo DEZZA" />
       <strong>DEEZA</strong>
     </div>
@@ -16,9 +36,13 @@
 
       <!-- tableau -->
       <table>
-        <caption><strong> ingédients</strong></caption>
+        <caption><strong>ingédients</strong></caption>
         <thead>
           <tr>
+            <th scope="col">Groupe</th>
+            <th scope="col">Année de formation</th>
+            <th scope="col">Nombre d'albums</th>
+            <th scope="col">Morceau le plus célèbre</th>
             <th scope="col">Groupe</th>
             <th scope="col">Année de formation</th>
             <th scope="col">Nombre d'albums</th>
@@ -29,6 +53,9 @@
           <tr>
             <th scope="row">Buzzcocks</th>
             <td>1976</td>
+            <td  colspan="2">9</td>
+            <td>Ever fallen in love </td>
+            <td>1976</td>
             <td>9</td>
             <td>Ever fallen in love </td>
           </tr>
@@ -37,9 +64,15 @@
             <td>1976</td>
             <td>6</td>
             <td><i lang="en">London Calling</i></td>
+            <td>1976</td>
+            <td  colspan="2">6</td>
+            <td><i lang="en">London Calling</i></td>
           </tr>
           <tr>
             <th scope="row">The Stranglers</th>
+            <td  colspan="2">1974</td>
+            <td>17</td>
+            <td><i lang="en">No More Heroes</i></td>
             <td>1974</td>
             <td>17</td>
             <td><i lang="en">No More Heroes</i></td>
@@ -48,6 +81,7 @@
         <tfoot>
           <tr>
             <th scope="row" colspan="2">Nombre total d'albums</th>
+            <td colspan="4">77</td>
             <td colspan="2">77</td>
           </tr>
         </tfoot>
@@ -55,51 +89,5 @@
     <h1>
     </h1>
     </div>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--création du menu-->
-    
   </body>
 </html>

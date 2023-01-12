@@ -23,31 +23,60 @@ body {
 /* espacement */
 
 table {
+  margin-left: 20%;
+margin-top: 2%;
+  font-size: 100%;
   table-layout: fixed;
   width: 60%;
   border-collapse: collapse;
   border: 3px solid purple;
 }
+caption{
+  font-size: 200%;
+}
 
 thead th:nth-child(1) {
-  width: 30%;
+  
+  border: solid;
 }
 
 thead th:nth-child(2) {
-  width: 20%;
+
+  border: solid;
 }
 
 thead th:nth-child(3) {
-  width: 15%;
+
+  border: solid;
 }
 
 thead th:nth-child(4) {
-  width: 35%;
+
+  border: solid;
 }
+thead th:nth-child(5) {
+
+  border: solid;
+}
+
+thead th:nth-child(6) {
+
+  border: solid;
+}
+
+thead th:nth-child(7) {
+  width: 10%;
+  border: solid;
+}
+
+thead th:nth-child(8) {
+  width: 10%;
+  border: solid;
+}
+
+
 
 th, td {
   padding: 20px;
+  border: solid;
 }
-=======
-  }
->>>>>>> Stashed changes
