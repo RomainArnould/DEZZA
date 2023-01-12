@@ -6,9 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Static Template</title>
+  <script type="text/javascript">
+
+    function togglemenu(){
+      document.getElementById('sidebar').classList.toggle('active');
+    }
+
+  </script>
+
   </head>
   <body>
     <div id="boite_toit">
+      <div id="sidebar" onclick="togglemenu()">
+        <div class="toggle-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul>
+          <li>Home</li>
+          <li>Carte</li>
+          <li>Support</li>
+        </ul>
+      </div>
       <img src="pizza2.png" alt="logo DEZZA" />
       <strong>DEEZA</strong>
     </div>
@@ -55,51 +75,5 @@
     <h1>
     </h1>
     </div>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--création du menu-->
-    
   </body>
 </html>

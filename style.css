@@ -17,7 +17,6 @@ body {
       width: 3%;
       font-weight: 5%;
       margin-left:-5% ;
-<<<<<<< Updated upstream
   }
 /* tableau */
 /* espacement */
@@ -48,6 +47,39 @@ thead th:nth-child(4) {
 th, td {
   padding: 20px;
 }
-=======
-  }
->>>>>>> Stashed changes
+
+
+/*création du menu*/
+*{
+  margin: 0;
+  padding: 0;
+}
+#sidebar{
+  position:fixed;
+  width: 30%;
+  height: 100%;
+  left: -30%;
+  background-color: black;
+}
+#sidebar li{
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+  border-bottom:1px solid gray;
+  text-align: center;
+}
+.toggle-btn{
+  position: absolute;
+  left: 105%;
+  top: 15px;
+}
+.toggle-btn span{
+  display: block;
+  background-color: black;
+  width: 30px;
+  height: 5px;
+  margin: 3px;
+}
+#sidebar.active{
+  left: 0;
+}
