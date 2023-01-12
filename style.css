@@ -17,6 +17,7 @@ body {
       width: 3%;
       font-weight: 5%;
       margin-left:-5% ;
+<<<<<<< Updated upstream
   }
 /* tableau */
 /* espacement */
@@ -47,3 +48,6 @@ thead th:nth-child(4) {
 th, td {
   padding: 20px;
 }
+=======
+  }
+>>>>>>> Stashed changes
