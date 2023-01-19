@@ -30,7 +30,8 @@ margin-top: 2%;
   border-collapse: collapse;
   border: 3px solid purple;
 }
-caption{
+
+caption {
   font-size: 200%;
 }
 
@@ -81,7 +82,7 @@ th, td {
 }
 
 
-/*création du menu*/
+/*menu coulissant*/
 *{
   margin: 0;
   padding: 0;
@@ -115,3 +116,8 @@ th, td {
 #sidebar.active{
   left: 0;
 }
+a:hover {
+  border: 5px solid whitesmoke;
+  color:whitesmoke;
+  text-decoration:none;
+  }
