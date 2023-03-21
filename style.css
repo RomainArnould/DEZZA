@@ -1,6 +1,7 @@
 body { 
     background-color:rgb(52, 52, 71); 
-    margin: 0px; 
+    margin: 0px;
+    padding: 0; 
   } 
   /* border-toit */ 
   #boite_toit { 
