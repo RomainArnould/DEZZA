@@ -1,11 +1,12 @@
 <!DOCTYPE html> 
 <html lang="fr"> 
   <head> 
-    <link rel="stylesheet" href="style.css" /> 
+    <link rel="stylesheet" href="css/style.css" /> 
     <meta charset="UTF-8" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
     <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
-    <title>Static Template</title> 
+    <title>DEEZA</title> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
   <script type="text/javascript"> 
  
     function togglemenu(){ 
@@ -18,14 +19,12 @@
     <div id="boite_toit"> 
       <div id="sidebar" onclick="togglemenu()"> 
         <div class="toggle-btn"> 
-          <span></span>
-          <span></span>
-          <span></span>
+          <i class="bx bx-menu"></i>
         </div> 
         <ul> 
-          <li><a href="index.html">Home</a></li> 
-          <li><a href="Carte.html">Carte</a></li> 
-          <li><a href="support.html">Support</a></li> 
+          <li><a href="index.html" style="color: white; text-decoration: none;">Home</a></li> 
+          <li><a href="Carte.html" style="color: white; text-decoration: none;">Carte</a></li> 
+          <li><a href="support.html" style="color: white; text-decoration: none;">Support</a></li> 
         </ul> 
       </div> 
       <img src="pizza2.png" alt="logo DEZZA" /> 
@@ -40,48 +39,48 @@
           <tr> 
             <th scope="col"><img src="pizza2.png" alt="pizza2" id="pizza2"></th> 
             <th scope="col">Fromages</th> 
-            <th scope="col"><img src="camembert.avif" alt="camembert" id="boissons"></th> 
-            <th scope="col"><img src="emmental.webp" alt="camembert" id="boissons"></th> 
-            <th scope="col"><img src="illustration.avif" alt="raclette" id="boissons"></th> 
-            <th scope="col"><img src="chevre.avif" alt="chevre" id="boissons"></th> 
-            <th scope="col"><img src="bleu.jpg" alt="bleu" id="boissons"></th> 
-            <th scope="col"><img src="mozzarella.webp" alt="mozzarella" id="boissons"></th> 
+            <th scope="col"><img src="img/camembert.avif" alt="camembert" id="boissons"></th> 
+            <th scope="col"><img src="img/emmental.webp" alt="camembert" id="boissons"></th> 
+            <th scope="col"><img src="img/illustration.avif" alt="raclette" id="boissons"></th> 
+            <th scope="col"><img src="img/chevre.avif" alt="chevre" id="boissons"></th> 
+            <th scope="col"><img src="img/bleu.jpg" alt="bleu" id="boissons"></th> 
+            <th scope="col"><img src="img/mozzarella.webp" alt="mozzarella" id="boissons"></th> 
           </tr> 
         </thead> 
         <tbody> 
           <tr> 
             <th scope="row">Viandes</th> 
-            <td><img src="lardon.jpg" alt="lardon" id="boissons"></td> 
-            <td  colspan="2"><img src="sala2.jpg" alt="salami" id="salami"></td> 
-            <td><img src="vihach.jpg" alt="haché" id="boissons"></td> 
-            <td><img src="thon.jpg" alt="thon" id="boissons"></td> 
-            <td><img src="saucisse.jpg" alt="saucisse" id="boissons"></td> 
-            <td><img src="saumon.png" alt="saumon" id="boissons"></td> 
+            <td><img src="img/lardon.jpg" alt="lardon" id="boissons"></td> 
+            <td  colspan="2"><img src="img/sala2.jpg" alt="salami" id="salami"></td> 
+            <td><img src="img/vihach.jpg" alt="haché" id="boissons"></td> 
+            <td><img src="img/thon.jpg" alt="thon" id="boissons"></td> 
+            <td><img src="img/saucisse.jpg" alt="saucisse" id="boissons"></td> 
+            <td><img src="img/saumon.png" alt="saumon" id="boissons"></td> 
           </tr> 
           <tr> 
             <th scope="row">Légumes</th> 
-            <td><img src="patate.jpg" alt="patate" id="boissons"></td> 
-            <td><img src="champi.jpg" alt="champignon" id="boissons"></td> 
-            <td><img src="annanas.webp" alt="annanas" id="boissons"></td> 
-            <td><img src="tomate.jpg" alt="tomate" id="boissons"></td> 
-            <td  colspan="2"><img src="poivrons.jfif" alt="poivrons" id="poivron"></td> 
-            <td><img src="auberg.jpg" alt="aubergine" id="boissons"></td> 
+            <td><img src="img/patate.jpg" alt="patate" id="boissons"></td> 
+            <td><img src="img/champi.jpg" alt="champignon" id="boissons"></td> 
+            <td><img src="img/annanas.webp" alt="annanas" id="boissons"></td> 
+            <td><img src="img/tomate.jpg" alt="tomate" id="boissons"></td> 
+            <td  colspan="2"><img src="img/poivrons.jfif" alt="poivrons" id="poivron"></td> 
+            <td><img src="img/auberg.jpg" alt="aubergine" id="boissons"></td> 
           </tr> 
           <tr> 
             <th scope="row">Boissons</th> 
-            <td><img src="SpriteGreenKitchen.jpg" alt="sprite" id="boissons"></td> 
-            <td><img src="fanta-blik33cl-goedkoopdrank.jpg" alt="fanta" id="boissons"></td> 
-            <td><img src="tea.jpg" alt="ice tea" id="boissons"></i></td> 
-            <td><img src="monster (1).jfif" alt="monster" id="boissons"></td> 
-            <td><img src="cock.jpg" alt="caca" id="boissons"></td> 
-            <td colspan="2"><div id="coca"><img src="coke-float-coca-glace-vanille-recette-tiktok.jpg" alt="float-coca" ></div></td> 
+            <td><img src="img/SpriteGreenKitchen.jpg" alt="sprite" id="boissons"></td> 
+            <td><img src="img/fanta-blik33cl-goedkoopdrank.jpg" alt="fanta" id="boissons"></td> 
+            <td><img src="img/tea.jpg" alt="ice tea" id="boissons"></i></td> 
+            <td><img src="img/monster (1).jfif" alt="monster" id="boissons"></td> 
+            <td><img src="img/cock.jpg" alt="caca" id="boissons"></td> 
+            <td colspan="2"><div id="coca"><img src="img/coke-float-coca-glace-vanille-recette-tiktok.jpg" alt="float-coca" ></div></td> 
           </tr> 
         </tbody> 
         <tfoot> 
           <tr> 
-            <th scope="row" colspan="2"><img src="rouge.jpg" alt="sauce tomate" id="boissons"></th> 
-            <td colspan="4"><img src="pate_pizza.jpg" alt="pate" id="patepizza"></td> 
-            <td colspan="2"><img src="blanc.jpg" alt="sauce blanche" id="boissons"></td> 
+            <th scope="row" colspan="2"><img src="img/rouge.jpg" alt="sauce tomate" id="boissons"></th> 
+            <td colspan="4"><img src="img/pate_pizza.jpg" alt="pate" id="patepizza"></td> 
+            <td colspan="2"><img src="img/blanc.jpg" alt="sauce blanche" id="boissons"></td> 
           </tr> 
         </tfoot> 
       </table> 
