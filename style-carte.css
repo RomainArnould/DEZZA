@@ -80,7 +80,6 @@ body {
     padding: 3px;
 }
 .single-menu h4{
-    text-transform: capitalize;
     font-size: 22px;
     border-bottom: 1px dashed #333;
     margin-bottom: 5px;
@@ -150,7 +149,9 @@ p {
     text-align: center; 
     font-size: 300%; 
     margin-top: 0%; 
-  
+    height: 70px;
+    margin-bottom: 50px;
+ 
   } 
   #boite_toit img{ 
       width: 3%; 
