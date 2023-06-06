@@ -2,7 +2,7 @@ body {
     background-color:rgb(52, 52, 71); 
     margin: 0px; 
     padding: 0px;
-    background: url(../dezza.png)no-repeat center fixed;
+    background: url(../img/dezza.png)no-repeat center fixed;
     -webkit-background-size:cover ;
     background-size: cover;
   } 
@@ -15,7 +15,8 @@ body {
     text-align: center; 
     font-size: 300%; 
     margin-top: 0%; 
- 
+    height: 70px;
+    margin-bottom: 50px;
   } 
   #boite_toit img{ 
       width: 3%; 

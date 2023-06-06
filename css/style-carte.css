@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* carte */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
@@ -103,7 +104,7 @@ p {
 #soustitre {
     color:silver;
 }
-/*création du menu*/ 
+/*création du menu coulissant*/ 
 *{ 
     margin: 0; 
     padding: 0; 

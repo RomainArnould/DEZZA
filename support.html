@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
  <head>
-  <meta charset="utf-8">
-  <title></title> 
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Support</title>
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-  <link rel="stylesheet" type="text/css" href="support.css" />
-   </head>
+  <link rel="stylesheet" type="text/css" href="css/support.css" />
+  <script type="text/javascript">
+
+   function togglemenu(){ 
+     document.getElementById('sidebar').classList.toggle('active');
+   }
+ </script>
+
+</head>
    <body>
+   <!-- bordure + menu coulissant-->
+   <div id="boite_toit"> 
+      <div id="sidebar" onclick="togglemenu()"> 
+        <div class="toggle-btn"> 
+          <i class="bx bx-menu"></i>
+        </div> 
+        <ul> 
+          <li><a href="index.html" style="color: white; text-decoration: none;">Home</a></li>
+          <li><a href="Carte.html" style="color: white; text-decoration: none;">Carte</a></li>
+          <li><a href="support.html" style="color: white; text-decoration: none;">Support</a></li>
+        </ul> 
+      </div> 
+      <img src="img/pizza2.png" alt="logo DEZZA" /> 
+      <strong>DEEZA</strong> 
+    </div> 
+<!-- tableau du support -->
   <table>
      <tr>
         <th></th>
@@ -17,20 +43,22 @@
          <tr>
             <td colspan="2"><h1>Jenya Melnik</h1>
             </td>
-            <td><a href="https://instagram.com/zdravye_druzya?igshid=NGExMmI2YTkyZg=="><img src="logosupport.png" alt="photo"align="right" width="90" height="90" ></a>  
+            <td><a href="https://instagram.com/zdravye_druzya?igshid=NGExMmI2YTkyZg==">
+               <img src="img/logosupport.png" alt="photo" align="right" width="90" height="90" ></a></td>
          </tr>
    </thead> 
    <tbody>
          <tr>
             <td colspan="2"><h1>Romain Arnould</h1></td>
             <td><a href="https://instagram.com/wiinox_?igshid=MzRlODBiNWFlZA==
-               "><img src="romain.jpg" alt="romain le bg" align="right" width="90" height="90" ></a></td>
+               "><img src="img/romain.jpg" alt="romain le bg" width="90" align="right" height="90" ></a></td>
          </tr>
    </tbody>
    <tfoot>
          <tr>
             <td colspan="2"><h1>Tommy Desset</h1></td>
-            <td><a href="https://instagram.com/romain_arnld?igshid=MzRlODBiNWFlZA=="><img src="pizza2.png" alt="pizza" align="right" width="90" height="90" /></td></td>
+            <td><a href="https://instagram.com/romain_arnld?igshid=MzRlODBiNWFlZA==">
+               <img src="img/luffy.jpg" alt="pizza" align="right" width="90" height="90" /></td></td>
          </tr>
    </tfoot>
   </table>
